@@ -1,0 +1,16 @@
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.MainForm.resources
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.csproj.GenerateResource.cache
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.AssemblyInfoInputs.cache
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.AssemblyInfo.cs
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.csproj.CoreCompileInputs.cache
+C:\src\filewatcher-winforms\src\FileWatcher.App\bin\Debug\net6.0-windows\FileWatcher.App.exe
+C:\src\filewatcher-winforms\src\FileWatcher.App\bin\Debug\net6.0-windows\FileWatcher.App.deps.json
+C:\src\filewatcher-winforms\src\FileWatcher.App\bin\Debug\net6.0-windows\FileWatcher.App.runtimeconfig.json
+C:\src\filewatcher-winforms\src\FileWatcher.App\bin\Debug\net6.0-windows\FileWatcher.App.dll
+C:\src\filewatcher-winforms\src\FileWatcher.App\bin\Debug\net6.0-windows\FileWatcher.App.pdb
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.dll
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\refint\FileWatcher.App.dll
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.pdb
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\FileWatcher.App.genruntimeconfig.cache
+C:\src\filewatcher-winforms\src\FileWatcher.App\obj\Debug\net6.0-windows\ref\FileWatcher.App.dll
