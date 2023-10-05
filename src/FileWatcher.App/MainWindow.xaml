@@ -1,0 +1,46 @@
+﻿<Window x:Class="FileWatcher.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileWatcher.App"
+        mc:Ignorable="d"
+        Title="Guarita" Height="450" Width="800">
+    <Grid>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="0">
+                <TextBlock Margin="5" Text="Localização"></TextBlock>
+                <TextBox Width="300" Margin="5" Name="txtDirectory"></TextBox>
+                <Button Name="btnBrowse" Width="90" Content="Procurar..." Margin="5" Click="btnBrowse_Click"></Button>
+                <Button Name="btnListen" Width="135" Content="Começar a observar" Margin="5" Click="btnListen_Click"></Button>
+            </StackPanel>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Name="FilesGrid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <GroupBox x:Name="groupBox" Grid.Row="0" Header="Ficheiros" MinHeight="100" HorizontalAlignment="Left" VerticalAlignment="Top" Width="{Binding ActualWidth, ElementName=FilesGrid, Mode=OneWay}">
+                        <TreeView Name="treeFiles" SelectedItemChanged="treeFiles_SelectedItemChanged"></TreeView>
+                    </GroupBox>
+                    <GroupBox x:Name="groupBoxEditor" Grid.Row="1" MinHeight="100" Header="Editor" HorizontalAlignment="Left" VerticalAlignment="Top" Width="{Binding ActualWidth, ElementName=FilesGrid, Mode=OneWay}">
+                        <TextBox x:Name="txtEditor" TextChanged="txtEditor_TextChanged"></TextBox>
+                    </GroupBox>
+                </Grid>
+                <Grid Grid.Column="1" Name="ActivityGrid">
+                    <GroupBox x:Name="groupBox1" Header="Actividade" MinHeight="100" HorizontalAlignment="Left" VerticalAlignment="Top" Width="{Binding ActualWidth, ElementName=FilesGrid, Mode=OneWay}">
+                        <ListView x:Name="lstResults" ></ListView>
+                    </GroupBox>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

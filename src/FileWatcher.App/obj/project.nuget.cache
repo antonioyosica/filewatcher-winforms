@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TKVhA7q9G65LICReQ9bLn609gFt3+vU+jwm2EIYqy5q9m2pf0HYIqqs7Xy07qUsSUwkPeW9yIyj4pwC5jJu2nA==",
+  "dgSpecHash": "r6GMZDyg+4UQQ4KqI2Ejt3ryJxU7+81d5kZq31m2ELwqF+Y7U/KMX0vXrdib46JxUHJBaiS5tPP6Bh32UyN59A==",
   "success": true,
   "projectFilePath": "C:\\src\\filewatcher-winforms\\src\\FileWatcher.App\\FileWatcher.App.csproj",
   "expectedPackageFiles": [],
